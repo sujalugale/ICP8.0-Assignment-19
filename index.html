@@ -10,7 +10,7 @@
             background-color: #f5f7fb;
         }
 
-        .cards-container{
+        .cards-container {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
@@ -54,14 +54,22 @@
             margin: 0%;
         }
 
+        /* Small Devices */
+        @media screen and (max-width: 600px) {
+            .card {
+                width: 100%;
+
+                margin: 20px 20px;
+        }
+    }
 
         /* Mobile Devices */
 
         @media screen and (min-width: 600px) and (max-width: 768px) {
 
-            .card{
+            .card {
                 width: 100%;
-                
+
                 margin: 20px 20px;
             }
         }
@@ -69,32 +77,36 @@
         /* Tablet Devices */
 
         @media screen and (min-width: 769px) and (max-width: 992px) {
-            .cards-container{
-            justify-content: start;
+            .cards-container {
+                justify-content: start;
             }
-            .card{
+
+            .card {
                 width: 300px;
                 margin-left: 120px;
                 margin-top: 50px;
             }
-            .card-img{
+
+            .card-img {
                 height: 40px;
             }
+
             .card-heading {
-            font-size: 20px;
-          
-        }
-            
+                font-size: 20px;
+
+            }
+
         }
 
 
         /* Dekstop device */
 
         @media screen and (min-width: 993px) and (max-width: 1250px) {
-            .cards-container{
-            justify-content: start;
+            .cards-container {
+                justify-content: start;
             }
-            .card{
+
+            .card {
                 width: 350px;
                 margin-left: 120px;
                 margin-top: 50px;
@@ -126,7 +138,8 @@
             </div>
 
             <p class="card-description">
-                Get your doubts resolved quickly. No more waiting for the next class. Once you ask a doubt our teaching assistants will resolve it as soon as possible.
+                Get your doubts resolved quickly. No more waiting for the next class. Once you ask a doubt our teaching
+                assistants will resolve it as soon as possible.
 
             </p>
 
@@ -138,7 +151,8 @@
             </div>
 
             <p class="card-description">
-                Get lifetime access of the notes that you can refer anytime in the future. High-quality notes prepared by the instructor. No need to buy any books.
+                Get lifetime access of the notes that you can refer anytime in the future. High-quality notes prepared
+                by the instructor. No need to buy any books.
 
             </p>
 
